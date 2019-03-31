@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="new.css">
+<link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+<link rel="stylesheet" href="imageslide.css">
+<link rel="stylesheet" href="demo.css">
+ 
+ <script type="text/javascript" src ="js/slider.js"> </script>
+
+<script src = "js/mscript.js"> </script>
+
+<script src = "js/slider1.js"> </script>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.css"> 
+
+
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">Connect</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+  <li><a href="top10.html">Top 10</a></li>   <!-- https://www.w3schools.com/css/css_navbar.asp -->
+  <li><a href="#news">In News</a></li>
+  <li><a href="#Wiki">Wiki</a></li>
+  <li><a href="#list">List all</a></li>
+  <!--<li style="float:right"><a class="active" href="#about">About</a></li>  --> <!-- Search will be added here later --> 
+</ul>
+ </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+</nav>
+
+<!--------------------------------------------------------------- Div for Slie Show of pictures --------------------------------------------------------------->
+<br>
+<br>
+<br>
+<div class="container">
+			  
+     <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<a href=""><img src="img/kamikaze.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Eminem Kamikaze</h2><p>Bags Billions.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="img/kardashians.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Kardashians</h2><p>In the news again</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="img/mgk.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Machine Gun Kelly</h2><p>The war between MGK and Eminem Continues</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href=""><img src="img/trump1.jpg" alt="" title=""/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Donald Trump</h2><p>In the News again.</p></div>
+                </div>
+	    	</li>
+	    </ul>
+	  </div>
+   </div>
+   <div class="input-group">
+	<input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-search" type="button"><i class="fa fa-search fa-fw"></i> Search</button>
+		</span>
+		</div>
+		
+	<!-- Start of slide show widget -->
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+  <p>People in News</p>
+ 
+  <button class="btn active" onclick="four()">People</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/steve.jpg" style="width:100%">
+   <p> <a href = "profile.html"> <img src="img/beckham.jpg" style="width:100%" a href = "profile.html"> </a> </p>
+    <img src="img/bill.jpg" style="width:100%">
+    <img src="img/bradd.jpg" style="width:100%">
+    <img src="img/hardy.jpg" style="width:100%">
+    <img src="img/jolie.jpg" style="width:100%">
+    <img src="img/bradd.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img/harry.jpg" style="width:100%">
+    <img src="img/mgk.jpg" style="width:100%">
+    <img src="img/steve.jpg" style="width:100%">
+    <img src="img/hardy.jpg" style="width:100%">
+    <img src="img/beckham.jpg" style="width:100%">
+    <img src="img/harry.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="img/steve.jpg" style="width:100%">
+    <img src="img/beckham.jpg" style="width:100%">
+    <img src="img/harry.jpg" style="width:100%">
+    <img src="img/bradd.jpg" style="width:100%">
+    <img src="img/hardy.jpg" style="width:100%">
+    <img src="img/jolie.jpg" style="width:100%">
+    <img src="img/bradd.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img/harry.jpg" style="width:100%">
+    <img src="img/beckham.jpg" style="width:100%">
+    <img src="img/steve.jpg" style="width:100%">
+    <img src="img/hardy.jpg" style="width:100%">
+    <img src="img/beckham.jpg" style="width:100%">
+    <img src="img/harry.jpg" style="width:100%">
+  </div>
+</div>
+<!-- Photo Grid -->
+
+
+<!-- End of Slide show widget -->	
+		
+      
+
+    </div>  
+	
+	
+	
+	
+
+<script src = "js/slider1.js"> </script>
+<script src = "js/mscript.js"> </script>
+</body>
+</html>
